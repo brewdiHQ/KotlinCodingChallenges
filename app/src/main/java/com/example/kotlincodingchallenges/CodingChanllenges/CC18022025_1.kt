@@ -10,6 +10,12 @@ Lege eine Map an, in der Produkte enthalten sind (Schlüssel), die jeweils einen
 Achte darauf, dass alle Produkte, die der Kunde in seiner Einkaufsliste hat, auch im Sortiment vorkommen
 Der Kunde hat vergessen, wie viel er für die Bananen bezahlen muss. Finde es heraus, indem du den Preis aus dem Sortiment ausliest
 
+
+Sortiment
+Lege eine Map an, in der Produkte enthalten sind (Schlüssel), die jeweils einen Preis haben (Wert)
+Achte darauf, dass alle Produkte, die der Kunde in seiner Einkaufsliste hat, auch im Sortiment vorkommen
+Der Kunde hat vergessen, wie viel er für die Bananen bezahlen muss. Finde es heraus, indem du den Preis aus dem Sortiment ausliest
+
  */
 
 fun main() {

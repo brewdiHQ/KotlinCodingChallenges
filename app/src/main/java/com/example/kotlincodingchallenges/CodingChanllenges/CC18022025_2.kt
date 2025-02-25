@@ -5,11 +5,15 @@ Du arbeitest weiter an einem Online Shop für Lebensmittel und willst die Logik 
 Der Supermarkt möchte ein neues Sortiment erstellen, mit neuen Preisen. Außerdem soll die Einkaufsliste des Kunden abgerechnet werden.
 
 Sortiment Preisänderung
+
 Erstelle eine neue veränderliche Map für den Supermarkt. Hier soll ein neues Sortiment gespeichert werden
 Nutze eine Schleife, um durch das alte Sortiment durchzugehen. Für jeden Eintrag soll der Preis um 1€ erhöht werden und in der neuen Map gespeichert werden
+
 Abrechnung der Einkaufsliste
+
 Erstelle eine Zählvariable, die zu Beginn den Preis 0 beinhaltet
-Gehe mit einer Schleife durch die Einkaufsliste des Kunden und schaue für jedes Produkt den aktuellen Preis im Sortiment nach. Rechne diesem Preis auf die Zählvariable, um am Ende den gesamten Preis zu erhalten.
+Gehe mit einer Schleife durch die Einkaufsliste des Kunden und schaue für jedes Produkt den aktuellen Preis im Sortiment nach. Rechne diesem Preis auf die
+Zählvariable, um am Ende den gesamten Preis zu erhalten.
 Nutze jetzt eine when Verzweigung:
 Falls der Preis unter 10€ ist, gib "Toller Preis!" auf der Konsole aus
 Falls der Preis zwischen 10€ und 50€ ist, gib "Normaler Preis" auf der Konsole aus

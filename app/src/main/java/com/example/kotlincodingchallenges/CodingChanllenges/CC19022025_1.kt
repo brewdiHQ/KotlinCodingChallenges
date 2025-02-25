@@ -44,7 +44,7 @@ fun checkHumidity(humidity: Int): Boolean {
 
 // Funktion für Aufgabe 2
 fun checkTemperature(temperature: Int): String {
-    return if (temperature > 18 && temperature < 25) {
+    return if (temperature in 19..24) {
         "Die Temperatur von $temperature Grad ist ideal für das Pflanzenwachstum."
     } else {
         "Die Temperatur von $temperature Grad ist nicht ideal für das Pflanzenwachstum."
