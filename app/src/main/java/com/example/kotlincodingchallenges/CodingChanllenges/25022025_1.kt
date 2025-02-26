@@ -65,7 +65,7 @@ fun SayHelloToCC() {
         )
 
         Icon(
-            painter = painterResource(id = R.drawable.outline_star_outline_24),
+            painter = painterResource(id = R.drawable.ic_launcher_foreground),
             contentDescription = "Star Icon",
             modifier = Modifier.size(124.dp),
 
@@ -73,7 +73,7 @@ fun SayHelloToCC() {
     }
 }
 
-// TODO()
+// TODO(implement anything)
 
 @Preview(showBackground = true)
 @Composable
