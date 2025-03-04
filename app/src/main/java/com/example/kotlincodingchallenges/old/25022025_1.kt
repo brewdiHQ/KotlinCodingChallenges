@@ -1,4 +1,4 @@
-package com.example.kotlincodingchallenges.CodingChanllenges
+package com.example.kotlincodingchallenges.old
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -21,8 +21,6 @@ import com.example.kotlincodingchallenges.R
 
 @Composable
 fun SayHelloToCC() {
-
-
 
     Column(
         modifier = Modifier

@@ -1,4 +1,4 @@
-package com.example.kotlincodingchallenges.CodingChanllenges
+package com.example.kotlincodingchallenges.old
 
 /*
 Du arbeitest weiter an einem Online Shop für Lebensmittel und willst die Logik für einen Einkauf programmieren.

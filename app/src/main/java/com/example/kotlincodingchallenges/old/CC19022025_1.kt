@@ -1,4 +1,4 @@
-package com.example.kotlincodingchallenges.CodingChanllenges
+package com.example.kotlincodingchallenges.old
 
 /*
 Du arbeitest an einem Smart-Garden-System. In dieser Challenge wirst du Funktionen mit Rückgabewerten erstellen und verwenden.

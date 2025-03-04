@@ -1,4 +1,4 @@
-package com.example.kotlincodingchallenges.CodingChanllenges
+package com.example.kotlincodingchallenges.old
 
 /*
 Du arbeitest weiter im Smart Garden System. Du willst eine Funktion schreiben, die ein Smart Garden System aktiviert oder deaktiviert.

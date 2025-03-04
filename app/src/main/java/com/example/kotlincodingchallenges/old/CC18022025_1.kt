@@ -1,4 +1,4 @@
-package com.example.kotlincodingchallenges.CodingChanllenges
+package com.example.kotlincodingchallenges.old
 
 /*
 Einkaufsliste

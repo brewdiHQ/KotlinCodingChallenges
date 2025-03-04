@@ -1,4 +1,4 @@
-package com.example.kotlincodingchallenges.CodingChanllenges
+package com.example.kotlincodingchallenges.old
 
 /*
 Du arbeitest an einem Fahrzeugmanagement-System für eine Mietwagenfirma. Deine Aufgabe ist es, ein einfaches System zu entwickeln, das zwei Fahrzeugtypen verwaltet.

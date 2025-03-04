@@ -1,4 +1,4 @@
-package com.example.kotlincodingchallenges.CodingChanllenges
+package com.example.kotlincodingchallenges.old
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
