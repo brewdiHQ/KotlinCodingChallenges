@@ -15,35 +15,44 @@ import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
 fun WaterCounter(
-modifier: Modifier = Modifier
+    modifier: Modifier = Modifier
 ) {
-    var waterCount by remember { mutableStateOf(220) }
+    var waterCount by remember { mutableStateOf(0) }
 
     Column(modifier = modifier) {
-        Text(text = "Wasser sippen: $waterCount")
-
-        Button(
-            onClick = { waterCount++ },
-            modifier = Modifier,
-        ) {
-            Text(text = "Wasser sippen")
-        }
+        CounterTextComposable(waterCount)
+        CounterButtonComposable(onClick = { waterCount++ })
 
         Button(
             onClick = { waterCount-- },
-            colors = ButtonDefaults.buttonColors(containerColor = Color.Red)
+            colors = ButtonDefaults.buttonColors(containerColor = Color.Red),
             modifier = Modifier,
         ) {
-            Text(text = "huch, einer zu viel")
+            Text(text = "Huch, einer zu viel")
         }
 
+        Text(text = "Gesamt: ${"%.2f".format(waterCount * 0.2)} Liter")
     }
+}
 
+@Composable
+fun CounterTextComposable(counterValue: Int) {
+    Text(text = "Wasser sippen: $counterValue x")
+}
+
+@Composable
+fun CounterButtonComposable(onClick: () -> Unit) {
+    Button(
+        onClick = onClick,
+        modifier = Modifier,
+    ) {
+        Text(text = "Wasser sippen")
+    }
 }
 
 @Preview(showBackground = true)
 @Composable
 private fun WaterCounterPreview() {
-    // Use Theme here
+    // Theme verwenden
     WaterCounter()
 }
